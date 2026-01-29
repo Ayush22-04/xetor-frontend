@@ -30,8 +30,8 @@ const Navbar = () => {
               BizCraft
             </span>
           </Link> */}
-          <Link to="/" className="flex items-center group">
-            <img src={logo} alt="xetor " className="h-10 md:h-12 w-auto" />
+          <Link to="/" className="flex items-center group bg-transparent">
+            <img src={logo} alt="xetor " className="h-10 md:h-12 w-auto bg-transparent object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
